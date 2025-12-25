@@ -1,2 +1,30 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 所有文本文件强制使用 LF 换行符
+* text=auto eol=lf
+
+# Shell 脚本（Linux 脚本）始终为 LF
+*.sh text eol=lf
+
+# Python 文件强制 LF
+*.py text eol=lf
+
+# 配置/代码类文件统一为 LF
+*.js  text eol=lf
+*.ts  text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md  text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Windows 批处理文件可选（默认也是 LF，如果不需支持 Windows 批处理，也可以删掉）
+# *.bat text eol=crlf
+
+# 二进制文件，禁用换行符处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary

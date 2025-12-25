@@ -1,0 +1,19 @@
+[project]
+name = "rwkv-emb"
+version = "0.2.6"
+authors = [
+  { name="Haowen HOU" },
+]
+description = "The EmbeddingRWKV Model"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/howard-hou/EmbeddingRWKV"
+"Bug Tracker" = "https://github.com/howard-hou/EmbeddingRWKV/issues"

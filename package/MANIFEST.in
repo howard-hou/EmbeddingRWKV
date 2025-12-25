@@ -1,0 +1,3 @@
+include src/rwkv_emb/reference/*
+include src/rwkv_emb/reference/cuda/*
+include src/rwkv_emb/*
