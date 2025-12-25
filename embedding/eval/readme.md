@@ -1,14 +1,14 @@
-# 评测使用说明
+# Evaluation Usage Guide
 
-## 环境依赖
+## Environment Dependencies
 
 - Python 3.10+
-- 安装 MTEB：`pip install mteb==1.38.60`
-- 安装 tabulate（用于表格显示）：`pip install "tabulate>=0.9.0"`
+- Install MTEB: `pip install mteb==1.38.60`
+- Install tabulate (for table display): `pip install "tabulate>=0.9.0"`
 
-## MTEB 评测
+## MTEB Evaluation
 
-使用 `mteb_runner.py` 对模型在 MTEB 基准上进行评测，示例命令如下：
+Use `mteb_runner.py` to evaluate the model on the MTEB benchmark. An example command is shown below:
 
 ```bash
 python mteb_runner.py \
@@ -21,12 +21,12 @@ python mteb_runner.py \
   --n-embd 768
 ```
 
-### Bash 脚本
+### Bash Script
 
-仓库提供了一个脚本可简化以上流程：
+The repository provides a script to simplify the above process:
 
 ```bash
 bash scripts/run_mteb.sh /path/to/ckpt.pth MTEB_ENG_V2 cuda:1
 ```
 
-这些脚本展示了在不同数据集上评测模型的配置方式，可根据需要进行修改。
+These scripts demonstrate how to configure model evaluation on different datasets and can be modified as needed.
