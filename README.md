@@ -74,7 +74,7 @@ While the model supports batches with variable sequence lengths, **we strongly r
   - **Performance**: Fixed-length batches allow the CUDA kernel to parallelize computation efficiently. Variable-length batches will trigger a slower execution path.
 
 
-### Image-Only Example
+### Image-Only Example（Weights Not Release Yet）
 
 ```python
 import torch
@@ -105,7 +105,7 @@ img_embs, _ = emb_model.forward_image_only(pixel_values, full_output=False)
 print(img_embs.shape)  # [batch, Dim]
 ```
 
-### Multimodal (Text + Image) Example
+### Multimodal (Text + Image) Example（Weights Not Release Yet）
 
 ```python
 import torch
@@ -282,6 +282,12 @@ print("\nRWKVReRanker Offline Scores:")
 for doc, score in zip(documents, scores):
     print(f"[{score:.4f}] {doc}")
 ```
+
+
+## Training and Evaluation
+For hands-on commands and flag presets, check the stage-specific guides: `pretrain/README.md` and `sft_curriculum/README.md` for training, `reranker/README.md` for reranker training and evaluation, and `eval/README.md` for MTEB benchmarks and helper scripts.
+
+
 
 ## Summary of Differences
 

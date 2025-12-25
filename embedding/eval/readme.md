@@ -1,14 +1,15 @@
-# Evaluation Usage Guide
+# Evaluation
+
+## Summary
+Evaluation utilities for EmbeddingRWKV and the reranker. This folder provides MTEB runners, custom model wrappers, and scripts to reproduce benchmark results.
 
 ## Environment Dependencies
-
 - Python 3.10+
-- Install MTEB: `pip install mteb==1.38.60`
-- Install tabulate (for table display): `pip install "tabulate>=0.9.0"`
+- MTEB: `pip install mteb==1.38.60`
+- Table formatting: `pip install "tabulate>=0.9.0"`
 
 ## MTEB Evaluation
-
-Use `mteb_runner.py` to evaluate the model on the MTEB benchmark. An example command is shown below:
+Use `mteb_runner.py` to evaluate a checkpoint on MTEB. Example:
 
 ```bash
 python mteb_runner.py \
@@ -21,12 +22,12 @@ python mteb_runner.py \
   --n-embd 768
 ```
 
-### Bash Script
+## Scripts
+- `scripts/run_mteb.sh`: standard embedding evaluation.
+- `scripts/run_mteb_late.sh`: late-interaction evaluation.
+- `scripts/run_mteb_rerank.sh`: reranker evaluation.
+- `scripts/run_mteb_task.sh`: single-task runs.
 
-The repository provides a script to simplify the above process:
-
-```bash
-bash scripts/run_mteb.sh /path/to/ckpt.pth MTEB_ENG_V2 cuda:1
-```
-
-These scripts demonstrate how to configure model evaluation on different datasets and can be modified as needed.
+## Supporting Tools
+- `custom_embedding_model.py`, `custom_late_interaction_model.py`, `custom_reranker_model.py`: MTEB wrappers.
+- `tabulate_mteb_result.py`: format MTEB outputs into tables.
