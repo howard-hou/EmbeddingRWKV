@@ -1,5 +1,5 @@
 .tools/
-models/*.bin
+models/
 results/
 *.dll
 *.exe
