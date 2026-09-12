@@ -2,6 +2,10 @@
 
 A high-efficiency text embedding and reranking model based on RWKV architecture.
 
+## 🗞️ News
+
+- **2026-09-12** — [rwkv-emb.c](rwkv-emb.c/README.md) implements EmbeddingRWKV text embedding inference in a single C file. Tokenization, RWKV-7 inference, multi-EOS pooling, and embedding heads run entirely on the CPU in FP32. The C runtime requires no PyTorch, BLAS, or CUDA. See the [build and usage guide](rwkv-emb.c/README.md) and [evaluation report](rwkv-emb.c/REPRODUCTION.md) for instructions and per-task results.
+
 ## 📦 Installation
 
 ```bash
