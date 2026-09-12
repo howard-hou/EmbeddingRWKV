@@ -1,0 +1,1712 @@
+{
+  "source": "D:\\\u4e34\u65f6\u6587\u4ef6\u5939\\\u65b0\u5efa\u6587\u4ef6\u5939\\EmbeddingRWKV\\models\\rwkv0b1-emb-curriculum.pth",
+  "source_sha256": "9033eec92f163d1a710474977fa3fb68b7ee04697e0e961d83434743bd256a15",
+  "sha256": "f58e47bb4066de02684c7c49bed2e6b43c8eca2847f06fceeba512c3a2283b37",
+  "layers": 12,
+  "channels": 768,
+  "dtype": "float32",
+  "matrix_layout": "input,output",
+  "tensors": {
+    "rwkv.emb.weight": [
+      65536,
+      768
+    ],
+    "rwkv.blocks.0.ln0.weight": [
+      768
+    ],
+    "rwkv.blocks.0.ln0.bias": [
+      768
+    ],
+    "rwkv.blocks.0.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.0.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.0.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.0.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.0.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.0.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.0.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.0.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.0.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.0.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.0.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.0.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.0.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.0.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.0.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.0.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.0.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.0.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.0.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.0.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.1.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.1.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.1.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.1.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.1.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.1.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.1.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.1.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.1.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.1.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.1.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.1.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.1.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.1.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.1.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.1.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.1.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.1.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.1.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.1.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.1.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.1.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.2.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.2.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.2.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.2.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.2.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.2.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.2.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.2.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.2.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.2.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.2.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.2.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.2.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.2.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.2.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.2.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.2.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.2.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.2.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.2.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.2.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.2.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.3.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.3.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.3.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.3.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.3.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.3.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.3.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.3.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.3.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.3.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.3.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.3.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.3.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.3.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.3.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.3.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.3.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.3.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.3.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.3.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.3.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.3.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.4.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.4.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.4.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.4.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.4.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.4.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.4.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.4.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.4.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.4.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.4.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.4.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.4.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.4.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.4.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.4.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.4.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.4.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.4.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.4.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.4.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.4.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.5.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.5.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.5.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.5.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.5.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.5.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.5.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.5.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.5.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.5.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.5.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.5.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.5.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.5.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.5.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.5.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.5.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.5.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.5.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.5.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.5.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.5.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.6.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.6.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.6.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.6.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.6.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.6.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.6.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.6.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.6.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.6.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.6.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.6.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.6.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.6.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.6.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.6.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.6.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.6.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.6.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.6.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.6.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.6.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.7.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.7.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.7.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.7.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.7.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.7.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.7.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.7.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.7.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.7.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.7.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.7.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.7.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.7.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.7.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.7.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.7.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.7.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.7.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.7.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.7.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.7.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.8.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.8.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.8.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.8.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.8.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.8.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.8.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.8.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.8.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.8.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.8.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.8.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.8.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.8.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.8.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.8.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.8.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.8.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.8.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.8.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.8.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.8.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.9.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.9.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.9.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.9.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.9.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.9.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.9.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.9.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.9.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.9.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.9.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.9.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.9.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.9.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.9.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.9.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.9.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.9.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.9.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.9.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.9.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.9.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.10.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.10.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.10.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.10.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.10.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.10.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.10.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.10.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.10.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.10.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.10.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.10.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.10.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.10.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.10.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.10.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.10.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.10.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.10.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.10.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.10.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.10.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.blocks.11.ln1.weight": [
+      768
+    ],
+    "rwkv.blocks.11.ln1.bias": [
+      768
+    ],
+    "rwkv.blocks.11.ln2.weight": [
+      768
+    ],
+    "rwkv.blocks.11.ln2.bias": [
+      768
+    ],
+    "rwkv.blocks.11.att.x_r": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.x_w": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.x_v": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.x_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.x_g": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.w1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.11.att.w2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.11.att.w0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.a1": [
+      768,
+      64
+    ],
+    "rwkv.blocks.11.att.a2": [
+      64,
+      768
+    ],
+    "rwkv.blocks.11.att.a0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.v1": [
+      768,
+      32
+    ],
+    "rwkv.blocks.11.att.v2": [
+      32,
+      768
+    ],
+    "rwkv.blocks.11.att.v0": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.g1": [
+      768,
+      128
+    ],
+    "rwkv.blocks.11.att.g2": [
+      128,
+      768
+    ],
+    "rwkv.blocks.11.att.k_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.k_a": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.att.r_k": [
+      12,
+      64
+    ],
+    "rwkv.blocks.11.att.receptance.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.11.att.key.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.11.att.value.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.11.att.output.weight": [
+      768,
+      768
+    ],
+    "rwkv.blocks.11.att.ln_x.weight": [
+      768
+    ],
+    "rwkv.blocks.11.att.ln_x.bias": [
+      768
+    ],
+    "rwkv.blocks.11.ffn.x_k": [
+      1,
+      1,
+      768
+    ],
+    "rwkv.blocks.11.ffn.key.weight": [
+      768,
+      3072
+    ],
+    "rwkv.blocks.11.ffn.value.weight": [
+      3072,
+      768
+    ],
+    "rwkv.ln_out.weight": [
+      768
+    ],
+    "rwkv.ln_out.bias": [
+      768
+    ],
+    "head.cls_head.fc1.weight": [
+      768,
+      768
+    ],
+    "head.cls_head.fc2.weight": [
+      768,
+      768
+    ],
+    "head.cls_head.norm.weight": [
+      768
+    ],
+    "head.cls_head.norm.bias": [
+      768
+    ],
+    "head.sts_head.fc1.weight": [
+      768,
+      768
+    ],
+    "head.sts_head.fc2.weight": [
+      768,
+      768
+    ],
+    "head.sts_head.norm.weight": [
+      768
+    ],
+    "head.sts_head.norm.bias": [
+      768
+    ],
+    "head.retr_head.fc1.weight": [
+      768,
+      768
+    ],
+    "head.retr_head.fc2.weight": [
+      768,
+      768
+    ],
+    "head.retr_head.norm.weight": [
+      768
+    ],
+    "head.retr_head.norm.bias": [
+      768
+    ]
+  }
+}
